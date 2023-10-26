@@ -1,38 +1,28 @@
-.App {
+.quantity_minus, .quantity_plus {
+  display: inline-block;
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  background-color: #ccc; /* Background color */
+  color: #333; /* Text color */
   text-align: center;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quantity_minus span, .quantity_plus span {
+  font-size: 20px; /* Adjust the font size as needed */
+  line-height: 30px; /* Match line height to button height */
+}
+.quantity_minus, .quantity_plus {
+  display: inline-block;
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  background-color: #ccc; /* Background color */
+  color: #333; /* Text color */
+  text-align: center;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quantity_minus span, .quantity_plus span {
+  font-size: 20px; /* Adjust the font size as needed */
+  line-height: 30px; /* Match line height to button height */
 }
